@@ -12,7 +12,7 @@ const HeroSection = () => {
 
   return (
     <div
-      className="relative bg-cover bg-center h-screen flex flex-col"
+      className="relative bg-cover bg-center h-screen flex flex-col top-0"
       style={{
         backgroundImage:
           "url('https://media.istockphoto.com/id/1130964201/photo/nepal-couple-and-the-ice-lake-with-the-view-on-annapurna-chain.webp?a=1&b=1&s=612x612&w=0&k=20&c=3mc8D0DsvhpQ5Et3vXo4ebvNQ6ieybXIDBRSJ5RJIME=')",
@@ -21,7 +21,7 @@ const HeroSection = () => {
       <div className="absolute inset-0 bg-black bg-opacity-50"></div>
 
       {/* Main Content Wrapper */}
-      <div className="relative z-10 flex flex-col flex-grow items-center justify-center text-center px-4 sm:px-8">
+      <div className="relative z-10 flex flex-col flex-grow items-center justify-center text-center px-4 sm:px-8 ">
         <motion.h1
           initial={{ y: -50, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}

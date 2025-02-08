@@ -13,13 +13,13 @@ function App() {
     <Router>
       <div className="flex flex-col min-h-screen">
         <Navbar />
-        <main className="flex-grow">
+        <main className="flex-grow mt-[5rem]">
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/destinations" element={<DestinationsListPage />} />
             <Route path="/destination/:id" element={<DestinationDetails />} />
-            <Route path="/contact" element={<ContactPage/>}/>
+            <Route path="/contact" element={<ContactPage />} />
           </Routes>
         </main>
         <Footer />

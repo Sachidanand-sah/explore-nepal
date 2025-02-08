@@ -7,7 +7,7 @@ const Navbar = () => {
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
   return (
-    <nav className="bg-gray-800 text-white shadow-md fixed top-0 w-full z-50">
+    <nav className="bg-gray-800 text-white shadow-md fixed top-0  w-full z-50">
       <div className="container mx-auto flex justify-between items-center p-4">
         {/* Logo */}
         <div className="text-2xl font-bold">
@@ -39,7 +39,7 @@ const Navbar = () => {
           </div>
         </button>
 
-        {/* Navigation Links */}
+        
         <ul
           className={`absolute md:static bg-gray-800 md:flex md:space-x-6 space-y-4 md:space-y-0 top-16 left-0 w-full md:w-auto md:items-center px-6 md:px-0 transition-transform duration-300 ${
             isMenuOpen ? "block" : "hidden"
